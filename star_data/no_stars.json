@@ -1,0 +1,47 @@
+{
+    "level_1": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_2": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_3": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_4": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_5": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_6": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_7": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_8": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    },
+    "level_9": {
+        "star_1": false,
+        "star_2": false,
+        "star_3": false
+    }
+}
