@@ -64,6 +64,7 @@ class Player(HpBar):
     
     def get_keyboard_events(self, event, bullets):
         if event.type == pygame.KEYDOWN:
+            
             if event.key == pygame.K_UP:
                 self.y_change -= self.pos_change
             if event.key == pygame.K_DOWN:
@@ -77,7 +78,7 @@ class Player(HpBar):
             if event.key == pygame.K_SPACE:
                 bullets.append(PlayerBullet(self.fire_place_x, self.y))
 
-        elif event.type == pygame.KEYUP:
+        elif event.type == pygame.KEYUP and event.key != pygame.K_SPACE:
             self.x_change = 0
             self.y_change = 0
             self.player_ship_imgs = self.player_ship_imgs_state_still
